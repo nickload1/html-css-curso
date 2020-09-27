@@ -96,9 +96,9 @@ body {
 
 }
 
-.main img {
+.cv-pic {
 	width: 275px;
-	border-radius: 75px;
+	border-radius: 275px;
 	margin-top: 30px;
 	float: left;
 	margin-right: 40px;
@@ -145,4 +145,9 @@ body {
 .caminho li {
 	display: inline-block;
 	
+}
+
+.social-img {
+	width: 40px;
+	margin-right: 10px;
 }
