@@ -158,7 +158,6 @@ body {
 
 .caminho a{
 	color: #136F63;
-	text-transform: none;
 }
 
 .caminho li {
@@ -169,6 +168,7 @@ body {
 .social-img {
 	width: 40px;
 	margin-right: 10px;
+	margin-bottom: 30px;
 }
 
 
@@ -191,7 +191,6 @@ body {
 	height: 100%;
 	background-color: black;
 	opacity: 0;
-	
 }
 
 .shadowbox:hover {
@@ -226,3 +225,7 @@ body {
 	margin-top: 20px;
 }
 
+.back-link a {
+	color: #e6e6e6;
+	
+}
