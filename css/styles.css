@@ -41,8 +41,22 @@ body {
 	background-color: #262626;
 	color: #136F63;
 	height: 70px;
+
 }
 
+.navigation li.threeline-icon {
+	display: none;
+
+}
+
+.navigation a {
+	text-decoration: none;
+	color: #136F63;
+}
+
+.navigation a:hover {
+	color: #e6e6e6;
+}
 
 
 .capa {
@@ -102,6 +116,7 @@ body {
 	margin-top: 30px;
 	float: left;
 	margin-right: 40px;
+	margin-bottom: 70px
 }
 
 
@@ -141,6 +156,10 @@ body {
 	color: #e6e6e6; 
 }
 
+.caminho a{
+	color: #136F63;
+	text-transform: none;
+}
 
 .caminho li {
 	display: inline-block;
