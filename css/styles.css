@@ -107,8 +107,10 @@ body {
 	font-family: "Skranji" , cursive;
 	margin: 80px 180px 80px 100px;
 	height: 20px;
+	
 
 }
+
 
 .cv-pic {
 	width: 230px;
@@ -143,12 +145,12 @@ body {
 
 .main p {
 	color:#e6e6e6;
-	font-size: 18px;
+	font-size: 17px;
 	font-weight: 100px;
-	line-height: 26px;
+	line-height: 30px;
 	text-align: justify;
-}
 
+}
 
 .caminho {
 	list-style: none;
@@ -225,7 +227,8 @@ body {
 	margin-top: 20px;
 }
 
-.back-link a {
+.back-link {
 	color: #e6e6e6;
+	padding-bottom: 80px;
 	
 }
