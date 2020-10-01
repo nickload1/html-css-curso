@@ -12,7 +12,7 @@ body {
 
 
 .capa span{
-	color: #136F63;
+	color: #058C42;
 	display: block;
 }
 
@@ -33,14 +33,18 @@ body {
 	padding-left: 60px;
 	padding-right: 60px;
 	line-height: 70px;
-	font-size: 25px;
+	font-size: 20px;
 }
 
 
 .navigation {
 	background-color: #262626;
-	color: #136F63;
+	color: #058C42;
 	height: 70px;
+
+	animation-name: profile-navigation;
+	animation-duration: 3s;
+
 
 }
 
@@ -51,7 +55,7 @@ body {
 
 .navigation a {
 	text-decoration: none;
-	color: #136F63;
+	color: #058C42;
 }
 
 .navigation a:hover {
@@ -80,11 +84,18 @@ body {
 	border-radius: 400px;
 	margin-top: 100px;
 
+	animation-name: profile-capa;
+	animation-duration: 3s;
+
 }
 
 
 .profile-title {
 	width: 59%;
+
+	animation-name: profile-ttl;
+	animation-duration: 3s;
+
 
 }
 
@@ -107,7 +118,9 @@ body {
 	font-family: "Skranji" , cursive;
 	margin: 80px 180px 80px 100px;
 	height: 20px;
-	
+
+	animation-name: profile-conteudo;
+	animation-duration:2s;
 
 }
 
@@ -137,7 +150,7 @@ body {
 }
 
 .main h3 {
-	color: #136F63;
+	color: #058C42;
 	font-size: 16px;
 	text-transform: uppercase;
 
@@ -159,7 +172,7 @@ body {
 }
 
 .caminho a{
-	color: #136F63;
+	color: #058C42;
 }
 
 .caminho li {
@@ -193,10 +206,12 @@ body {
 	height: 100%;
 	background-color: black;
 	opacity: 0;
+	transition: 1s;
 }
 
 .shadowbox:hover {
 	opacity: 0.7;
+	transition: 1s;
 }
 
 
@@ -209,7 +224,7 @@ body {
 .shadowtext h1 {
 	font-size: 20px;
 	text-transform: uppercase;
-	color:  #136F63;
+	color:  #058C42;
 	margin-top:  0;
 	padding-top: 100px;
 
@@ -231,4 +246,134 @@ body {
 	color: #e6e6e6;
 	padding-bottom: 80px;
 	
+}
+
+
+@keyframes profile-capa {
+	0% {opacity: 0;}
+	100% { pacity: 1;}
+}
+
+@keyframes profile-ttl {
+	0% {transform: translate(0px,50px); opacity: 0;}
+	100% {transform: translate(0px,0px); opacity: 1;}
+}
+
+@keyframes profile-navigation {
+	0% {opacity: 0;}
+	50% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+@keyframes profile-conteudo {
+	0% {transform: translate(0px,-20px); opacity: 0;}
+	100% {transform: translate(0px,0px); opacity: 1;}
+}
+
+
+@media (max-width: 1000px) {
+
+
+.navigation li {
+	display: none;
+
+}
+
+.navigation ul {
+	text-align: right;
+}
+
+.navigation li.threeline-icon {
+	display: inline-block;
+
+}
+
+.profile-pic {
+	width: 100%;
+
+}
+
+.profile-pic img {
+	margin-top: 10px;
+	max-width: 70%;
+}
+
+
+.profile-title {
+	width: 100%;
+	text-align: center;
+
+
+}
+
+.profile-title h1{
+	margin-top: 10px;
+	font-size: 35px;
+	margin-left: 20px;
+	margin-right: 20px;
+
+
+}
+
+.profile-title h2{
+	margin-top: 10px;
+	font-size: 18px;
+	margin-left: 20px;
+	margin-right: 20px;
+
+}
+
+.main {
+	font-family: "Skranji" , cursive;
+	margin: 10px 5% 40px 5%;
+	height: 20px;
+
+}
+
+.main p {
+	text-align: left;
+	line-height: 30px;
+}
+
+.capa div {
+	display: block;
+	height: auto;
+}
+
+.caminho li {
+	font-size: 15px;
+}
+
+
+.cv-pic {
+	width: 300px;
+	border-radius: 300px;
+	margin-top: 30px;
+	float: none;
+	margin-bottom: 70px;
+	max-width: 100%;
+}
+
+.litle-pic {
+	max-width: 100%;
+	background-size: auto 100%;
+
+}
+
+.menujs {
+	background-color: yellow;
+	height: 400px;
+
+}
+
+.menujs ul {
+	height: 400px;
+	
+}	
+
+.menujs li{
+	display: block;
+}
+
+
 }
