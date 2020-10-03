@@ -361,19 +361,19 @@ body {
 }
 
 .menujs {
-	background-color: yellow;
-	height: 400px;
+	height: auto;
 
 }
 
 .menujs ul {
-	height: 400px;
-	
+	height: auto;
+	text-align: center;
+	padding-right: 15%;
+	padding-left: 15%;
 }	
 
 .menujs li{
 	display: block;
-}
-
+	border-bottom: double #e6e6e6 3px;
 
 }
