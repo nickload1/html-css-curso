@@ -285,7 +285,11 @@ body {
 
 .navigation li.threeline-icon {
 	display: inline-block;
+}
 
+.navigation li.threeline-icon:hover {
+	color: #e6e6e6;
+	cursor: pointer;
 }
 
 .profile-pic {
